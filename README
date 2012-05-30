@@ -1,1 +1,8 @@
 Codeigniter library for display "13 minutes ago" or "13 hours ago".
+
+How to use:
+load the library
+$this->load->library('hitungwaktu');
+
+and call the library
+<?=$this->hitungwaktu->ago(date('Y-m-d'));?>
